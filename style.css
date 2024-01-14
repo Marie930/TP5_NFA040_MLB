@@ -1,3 +1,53 @@
 p {
   color: black;
 }
+
+header.header {
+  text-align: center;
+  background: #ffb6ea;
+}
+
+section.simply {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+article {
+  max-width: 250px;
+  width: 250px;
+}
+
+img {
+  width: 85%;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+article.pizza {
+  display: grid;
+  grid-template-areas: "pizza nom";
+  grid-template-columns: 45% 75%;
+  grid-template-rows: 100px;
+  align-items: center;
+  justify-items: start;
+}
+
+article.saucisses {
+  display: grid;
+  grid-template-areas: "saucisses-frites nom";
+  grid-template-columns: 45% 75%;
+  grid-template-rows: 100px;
+  align-items: center;
+  justify-items: start;
+  background: purple;
+}
+
+article.sardines {
+  display: grid;
+  grid-template-areas: "pizza nom";
+  grid-template-columns: 45% 75%;
+  grid-template-rows: 100px;
+  align-items: center;
+  justify-items: start;
+}
