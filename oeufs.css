@@ -31,13 +31,6 @@ header.header {
   background: #ffb6ea;
 }
 
-main.simply {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  height: 740px;
-}
-
 footer {
   background: #ffb6ea;
   display: flex;
@@ -57,11 +50,21 @@ img.logo {
 
 span.ingredient {
   color: blue;
+  margin-left: 0px;
 }
 
-figcaption {
+span.legende {
   font-size: smaller;
   text-align: end;
+}
+
+img {
+  margin-left: 1166px;
+  width: 30%;
+}
+
+h2#oeufs {
+  width: 1664px;
 }
 
 article.illustration {
@@ -69,5 +72,5 @@ article.illustration {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-end;
-  width: 1300px;
+  width: 1664px;
 }
